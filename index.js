@@ -22,4 +22,12 @@ function appendKitten(name){
 function prependKitten(name){
   return ["Arnold", ...kittens];
 }
-function 
+function removeLastKitten(){
+  var newKitten = [...kittens];
+  newKitten.pop();
+  return newKitten;
+}
+function removeLastKitten(){
+  var newKitten = [...kittens];
+  newKitten.pop();
+  return newKitten;
